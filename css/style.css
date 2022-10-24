@@ -1,0 +1,38 @@
+/* Stile di default */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stile header */
+
+.header-container{   
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.row-header{
+    border: 1px dashed black;
+    display: flex;
+    height: 30px;
+    width: 350px;
+    background-color: orange;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.col-logo, .col-login{
+border: 1px dashed black;
+width: 25%;
+}
+
+.col-link{
+border: 1px dashed black;
+width: 50%;
+}

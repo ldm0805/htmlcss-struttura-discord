@@ -10,27 +10,44 @@
 .header-container{   
     display: flex;
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-color: rgb(173, 216, 230);
     justify-content: center;
     align-items: center;
 }
  
 .row-header{
-    border: 2px dashed black;
-    display: flex;
-    height: 30px;
-    width: 1080px;
+    display: flex;   
+    height: 40px;
+    width: 1180px;
     background-color: orange;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-between;
 }
 
 .col-logo, .col-login, .col-link {
-    border: 2px dashed black;
-    align-items: center;   
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
+
+.col-logo {
+    flex-direction: row;
+    border: 2px dashed black;
+    width: 250px;
+}
+
+.col-link{
+    justify-content: center;
+    text-align: center;
+    border: 2px dashed black;
+    width: 680px;
+}
+
+.col-login{
+    border: 2px dashed black;
+    width: 250px;
+    flex-direction: row-reverse;
+}
+
 
 /* Inizio main */
 
@@ -115,7 +132,7 @@ main{
 .gray-container-two{
     background-color: lightgray;
     display: flex;
-    height: 550px;
+    height: 500px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -123,7 +140,7 @@ main{
 
 .green-col{
     border: 2px dashed black;
-    height: 500px;
+    height: 450px;
     width: 60%;
     background-color: green;
 }
@@ -161,7 +178,6 @@ main{
     background-color: rgb(0, 0, 0);
     justify-content: center;
     align-items: flex-end;
-    
 }
 
 .lightgreen-container{
@@ -173,16 +189,9 @@ main{
     align-items: center;
 }
 
-.footer-logo-col{
+.footer-logo-col, .footer-bottone-col{
     border: 2px dashed black;
     height: 25px;
-    padding-right: 5px;
-    background-color: rgb(255, 182, 193);
-}
-
-.footer-bottone-col{
-    border: 2px dashed black;
-    height: 25px;
-    padding-left: 5px;
+    padding: 0px 10px 0px 10px;
     background-color: rgb(255, 182, 193);
 }

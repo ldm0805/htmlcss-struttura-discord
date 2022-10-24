@@ -10,17 +10,17 @@
 .header-container{   
     display: flex;
     width: 100%;
-    height: 70px;
-    background-color: aqua;
+    height: 50px;
+    background-color: rgb(173, 216, 230);
     justify-content: center;
     align-items: center;
 }
  
 .row-header{
-    border: 1px dashed black;
+    border: 2px dashed black;
     display: flex;
     height: 30px;
-    width: 350px;
+    width: 1080px;
     background-color: orange;
     flex-wrap: wrap;
     justify-content: center;
@@ -28,11 +28,89 @@
 }
 
 .col-logo, .col-login{
-border: 1px dashed black;
-width: 25%;
+    border: 2px dashed black;
+    width: 25%;
 }
 
 .col-link{
-border: 1px dashed black;
-width: 50%;
+    border: 2px dashed black;
+    width: 50%;
+}
+
+/* Inizio main */
+
+main{
+    background-color: rgb(173, 216, 230);
+}
+
+/* Prima section  */
+
+.row-blue{
+    margin-bottom: 2px;
+}
+
+.blue-container{
+    display: flex;
+    height: 350px;
+    width: 100%;
+    background-color: rgb(8, 8, 139);
+    justify-content: center;
+    align-items: center;
+}
+
+.pink-col{
+    border: 2px dashed black;
+    height: 300px;
+    width: 50%;
+    background-color: violet;
+}
+
+/* Seconda section */
+
+.white-container{
+    display: flex;
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightblue-col{
+    border: 2px dashed black;
+    height: 300px;
+    width: 35%;
+    background-color: rgb(88, 88, 228);
+}
+
+.lightpink-col{
+    border: 2px dashed black;
+    height: 300px;
+    width: 25%;
+    background-color: rgb(255, 192, 203);
+}
+
+/* Terza section */
+
+.gray-container{
+    background-color: lightgray;
+    display: flex;
+    height: 350px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightblue-col-two{
+    border: 2px dashed black;
+    height: 300px;
+    width: 25%;
+    background-color: rgb(88, 88, 228);
+}
+
+.lightpink-col-two{
+    border: 2px dashed black;
+    height: 300px;
+    width: 35%;
+    background-color: rgb(255, 192, 203);
 }

@@ -114,3 +114,21 @@ main{
     width: 35%;
     background-color: rgb(255, 192, 203);
 }
+
+/* Quarta section */
+
+.gray-container-two{
+    background-color: lightgray;
+    display: flex;
+    height: 550px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-col{
+    border: 2px dashed black;
+    height: 500px;
+    width: 60%;
+    background-color: green;
+}
